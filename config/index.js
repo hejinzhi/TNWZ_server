@@ -2,7 +2,7 @@
 module.exports = {
   // dbPath: 'mongodb://localhost/graphql'
   mongodb: {
-    host: 'mongodb://localhost',
+    host: 'mongodb://120.78.64.203:27017',
     database: '/quiz',
     opt: {
       useMongoClient: true,
@@ -10,5 +10,3 @@ module.exports = {
     }
   }
 }
-
-
